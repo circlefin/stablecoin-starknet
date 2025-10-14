@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "ymotongpoo.licenser", 
+    "esbenp.prettier-vscode", 
+    "starkware.cairo1"
+  ]
+}

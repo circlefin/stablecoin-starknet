@@ -1,0 +1,15 @@
+node_modules/
+*.log
+.DS_Store
+
+# Scarb
+target/
+
+# Starknet Foundry
+.snfoundry_cache/
+snfoundry_trace/
+
+# Coverage
+coverage/
+coverage_report/
+coverage.lcov

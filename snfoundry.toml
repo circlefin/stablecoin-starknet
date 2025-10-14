@@ -1,0 +1,27 @@
+# Copyright 2025 Circle Internet Group, Inc. All rights reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Visit https://foundry-rs.github.io/starknet-foundry/appendix/snfoundry-toml.html
+# and https://foundry-rs.github.io/starknet-foundry/projects/configuration.html for more information
+
+# [sncast.default]                                         # Define a profile name
+# url = "https://starknet-sepolia.public.blastapi.io/rpc/v0_9" # Url of the RPC provider
+# accounts-file = "../account-file"                        # Path to the file with the account data
+# account = "mainuser"                                     # Account from `accounts_file` or default account file that will be used for the transactions
+# keystore = "~/keystore"                                  # Path to the keystore file
+# wait-params = { timeout = 300, retry-interval = 10 }     # Wait for submitted transaction parameters
+# block-explorer = "StarkScan"                             # Block explorer service used to display links to transaction details
+# show-explorer-links = true                               # Print links pointing to pages with transaction details in the chosen block explorer
